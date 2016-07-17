@@ -18,27 +18,3 @@ function start(route) {
 }
 
 exports.start = start;
-
-
-// http.createServer(function(request, response) {
-//   response.writeHead(200, {'Content-Type': 'text/plain'});
-//   response.write('hello world');
-//   response.end();
-// }).listen(8888);
-
-// var http = require('http');
-
-// var server = createServer();
-// server.listen(8888);
-
-
-// PASS FUNCTIONS AROUND
-// function say(word) {
-//   console.log(word);
-// }
-//
-// function execute(someFunction, value) {
-//   someFunction(value);
-// }
-//
-// execute(say, 'Hello');
